@@ -1,0 +1,8 @@
+title: Personal web page
+description: This is a simple, placeholder web page
+baseurl: ""
+url: "https://jhwatrous.github.io"
+
+markdown: kramdown
+highlighter: rouge
+theme: minima
