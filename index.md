@@ -7,7 +7,7 @@ title: Home
 
 I’m an educator and researcher specializing in quantum information and computation.
 
-My interest in quantum computing began over 30 years ago, when I was a graduate student studying computational number theory at the University of Wisconsin – Madison. I moved to Canada after getting my PhD, initially for a one-year postdoctoral fellowship at l'Université de Montréal. I was then a faculty member at the University of Calgary for 7 years and the University of Waterloo for nearly 16 years, where I served as Interim Executive Director of the Institute for Quantum Computing for my final year as a professor. I left the University of Waterloo to join IBM at the start of 2021, where I worked as Technical Director for Quantum Education, and left IBM in June of 2025.
+My interest in quantum computing began over 30 years ago, when I was a graduate student studying computational number theory at the University of Wisconsin – Madison. I was then a postdoctoral fellow at l'Université de Montréal for one year, a faculty member at the University of Calgary for 7 years, and a faculty member at the University of Waterloo for nearly 16 years, where I served as Interim Executive Director of the Institute for Quantum Computing for my final year as a professor. I then worked as Technical Director for Quantum Education at IBM for 3 1/2 years.
 
 As an educator, my contributions include lecture notes for a few courses on quantum information and computation, my book on quantum information theory, and the course *Understanding Quantum Information and Computation*, which I created while working for IBM. You can find these things by clicking on the <a href="{{ '/education.html' | relative_url }}">Education</a> tab.
 
