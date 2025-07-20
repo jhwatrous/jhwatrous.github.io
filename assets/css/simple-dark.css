@@ -43,6 +43,13 @@ header h1 {
     text-decoration: underline;
 }
 
+header nav a {
+    margin-right: 20px;
+    padding: 8px 16px;
+    background-color: #2a2a2a;
+    border-radius: 4px;
+}
+
 .header-separator {
     border: none;
     border-top: 1px solid #555;
