@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Research
+title: Writings
 ---
 
-## Writings
+# Writings
 
 
 

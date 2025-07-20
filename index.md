@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Home
+title: About
 ---
 
-## About
+# About
 
 I’m an educator and researcher specializing in quantum information and computation.
 
