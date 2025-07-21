@@ -120,7 +120,6 @@ footer {
 
 .theme-toggle {
     display: flex;
-    border: 1px solid var(--border-color);
     cursor: pointer;
 }
 
@@ -146,4 +145,3 @@ footer {
     border-color: var(--accent-primary);
     transform: scale(0.95);
 }
-
