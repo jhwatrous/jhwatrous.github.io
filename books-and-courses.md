@@ -22,22 +22,22 @@ This is a course on the theory of quantum computing, consisting of 16 lessons di
 
 Videos are available on the [Qiskit YouTube](https://www.youtube.com/@qiskit) channel as a [playlist](https://www.youtube.com/playlist?list=PLOFEBzvs-VvqKKMXX4vbi4EB1uaErFMSO) or by lesson:
 
-- Lesson 1: [Single Systems](https://youtu.be/3-c4xJa7Flk)
-- Lesson 2: [Multiple Systems](https://youtu.be/DfZZS8Spe7U)
-- Lesson 3: [Quantum Circuits](https://youtu.be/30U2DTfIrOU)
-- Lesson 4: [Entanglement in Action](https://youtu.be/GSsElSQgMbU)
-- Lesson 5: [Quantum Query Algorithms](https://youtu.be/2wticzHE1vs)
-- Lesson 6: [Quantum Algorithmic Foundations](https://youtu.be/2wxxvwRGANQ)
-- Lesson 7: [Phase Estimation and Factoring](https://youtu.be/4nT0BTUxhJY)
-- Lesson 8: [Grover’s Algorithm](https://youtu.be/hnpjC8WQVrQ)
-- Lesson 9: [Density Matrices](https://youtu.be/CeK9ry8G8HQ)
-- Lesson 10: [Quantum Channels](https://youtu.be/cMl-xIDSmXI)
-- Lesson 11: [General Measurements](https://youtu.be/Xi9YTYzQErY)
-- Lesson 12: [Purifications and Fidelity](https://youtu.be/jemWEdnJTnI)
-- Lesson 13: [Correcting Quantum Errors](https://youtu.be/OoQSdcKAIZc)
-- Lesson 14: [The Stabilizer Formalism](https://youtu.be/3ib2JP_LeIU)
-- Lesson 15: [Quantum Code Constructions](https://youtu.be/9TCIOm8gcVQ)
-- Lesson 16: [Fault-Tolerant Quantum Computation](https://youtu.be/aeaqXh2XXMk)
+1. Single Systems [[YouTube](https://youtu.be/3-c4xJa7Flk)]
+2. Multiple Systems [[YouTube](https://youtu.be/DfZZS8Spe7U)]
+3. Quantum Circuits [[YouTube](https://youtu.be/30U2DTfIrOU)]
+4. Entanglement in Action [[YouTube](https://youtu.be/GSsElSQgMbU)]
+5. Quantum Query Algorithms [[YouTube](https://youtu.be/2wticzHE1vs)]
+6. Quantum Algorithmic Foundations [[YouTube](https://youtu.be/2wxxvwRGANQ)]
+7. Phase Estimation and Factoring [[YouTube](https://youtu.be/4nT0BTUxhJY)]
+8. Grover’s Algorithm [[YouTube](https://youtu.be/hnpjC8WQVrQ)]
+9. Density Matrices [[YouTube](https://youtu.be/CeK9ry8G8HQ)]
+10. Quantum Channels [[YouTube](https://youtu.be/cMl-xIDSmXI)]
+11. General Measurements [[YouTube](https://youtu.be/Xi9YTYzQErY)]
+12. Purifications and Fidelity [[YouTube](https://youtu.be/jemWEdnJTnI)]
+13. Correcting Quantum Errors [[YouTube](https://youtu.be/OoQSdcKAIZc)]
+14. The Stabilizer Formalism [[YouTube](https://youtu.be/3ib2JP_LeIU)]
+15. Quantum Code Constructions [[YouTube](https://youtu.be/9TCIOm8gcVQ)]
+16. Fault-Tolerant Quantum Computation [[YouTube](https://youtu.be/aeaqXh2XXMk)]
 
 {% endcapture %} 
 
@@ -45,7 +45,7 @@ Videos are available on the [Qiskit YouTube](https://www.youtube.com/@qiskit) ch
 
 {% capture TQI %}
 
-Published by [Cambridge University Press](https://www.cambridge.org/) in April 2018. This book is available for purchase through Cambridge University Press and other standard distribution channels. Please see the publisher's web page to order the book or to obtain further details on its publication. A manuscript of the book can be found below—it has been made available for personal use only and must not be sold or redistributed.
+This book published by [Cambridge University Press](https://www.cambridge.org/) in April 2018, and is available for purchase through the publisher and other standard distribution channels. A manuscript of the book can be found below — it has been made available for personal use only and must not be sold or redistributed.
 
 Errata [[pdf]]({{ '/TQI.errata.pdf' | relative_url }})
 
