@@ -92,12 +92,7 @@ p {
 
 a {
     color: var(--accent-primary);
-    text-decoration: underline;
-}
-
-a[href^="http"]:not([href*="yourdomain.com"])::after {
-  content: " ↗";
-  font-size: 0.8em;
+    text-decoration: none;
 }
 
 a:hover {
