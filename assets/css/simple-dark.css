@@ -95,6 +95,11 @@ a {
     text-decoration: underline;
 }
 
+a[href^="http"]:not([href*="yourdomain.com"])::after {
+  content: " ↗";
+  font-size: 0.8em;
+}
+
 a:hover {
     color: var(--text-secondary);
 }
@@ -180,7 +185,7 @@ details summary h2 {
 }
 
 details {
-  margin-bottom: 0.75em; /* Add this line */
+  margin-bottom: 0.65em;
 }
 
 .collapsible-content {

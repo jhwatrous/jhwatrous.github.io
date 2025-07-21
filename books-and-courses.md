@@ -7,7 +7,7 @@ title: Books and courses
 
 {% capture UQIC %}
 
-This is a course on the theory of quantum computing that I created while working for IBM. It consists of 16 lessons divided into four units, with each lesson including a video and a written component, and covers subject matter roughly corresponding to a one-semester university course at the advanced undergraduate or introductory graduate level.
+This is a course on the theory of quantum computing, consisting of 16 lessons divided into four units, with each lesson including a video and a written component. The course covers subject matter roughly corresponding to a one-semester university course at the advanced undergraduate or introductory graduate level.
 
 ### Written material
 
