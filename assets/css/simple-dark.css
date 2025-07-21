@@ -160,7 +160,7 @@ details summary::-webkit-details-marker {
 details summary::before {
   content: '▶';
   position: absolute;
-  left: 0;
+  left: 0.1em;
   top: 0.5em;
   transition: transform 0.2s ease;
 }
