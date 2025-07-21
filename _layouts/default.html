@@ -38,7 +38,26 @@
       
       <footer>
 	<p>&copy; 2025 {{ site.title }}</p>
+	<button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
       </footer>
     </div>
+    <script>
+        const themeToggle = document.getElementById('theme-toggle');
+        const currentTheme = localStorage.getItem('theme') || 'dark';
+
+        // Set initial theme
+        document.documentElement.setAttribute('data-theme', currentTheme === 'light' ? 'light' : 'dark');
+        themeToggle.textContent = currentTheme === 'light' ? '🌙' : '☀️';
+
+        // Toggle theme
+        themeToggle.addEventListener('click', () => {
+            const theme = document.documentElement.getAttribute('data-theme');
+            const newTheme = theme === 'light' ? 'dark' : 'light';
+            
+            document.documentElement.setAttribute('data-theme', newTheme);
+            themeToggle.textContent = newTheme === 'light' ? '🌙' : '☀️';
+            localStorage.setItem('theme', newTheme);
+        });
+    </script>
   </body>
 </html>
