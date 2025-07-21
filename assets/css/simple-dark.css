@@ -159,8 +159,8 @@ details summary::-webkit-details-marker {
 details summary::before {
   content: '▲'; /* Plain Unicode triangle */
   position: absolute;
-  left: 0;
-  top: 0.666em;
+  left: 0.1em;
+  top: 0.6em;
   transition: transform 0.2s ease;
   transform: rotate(90deg);
   color: inherit;

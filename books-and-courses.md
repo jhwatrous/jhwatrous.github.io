@@ -42,3 +42,40 @@ Videos are available on the [Qiskit](https://www.youtube.com/@qiskit) YouTube ch
 {% endcapture %} 
 
 {% include collapsible.html title="Understanding Quantum Information and Computation" content=UQIC %}
+
+{% capture TQI %}
+
+Published by [Cambridge University Press](https://www.cambridge.org/) in April 2018. This book is available for purchase through Cambridge University Press and other standard distribution channels. Please see the publisher's web page to order the book or to obtain further details on its publication. A manuscript of the book can be found below—it has been made available for personal use only and must not be sold or redistributed.
+
+Errata [[pdf]]({{ '/TQI-errata.pdf' | relative_url }})
+
+### Complete book
+
+- Standard layout [[pdf]]({{ '/TQI.pdf' | relative_url }})
+- Compact layout [[pdf]]({{ '/TQI.double.pdf' | relative_url }})
+
+### Individual chapters (standard layout)
+
+1. Mathematical preliminaries [[pdf]]({{ 'TQI.1.pdf' | relative_url }})
+2. Basic notions of quantum information [[pdf]]({{ 'TQI.2.pdf' | relative_url }})
+3. Similarity and distance among states and channels [[pdf]]({{ 'TQI.3.pdf' | relative_url }})
+4. Unital channels and majorization [[pdf]]({{ 'TQI.4.pdf' | relative_url }})
+5. Quantum entropy and source coding [[pdf]]({{ 'TQI.5.pdf' | relative_url }})
+6. Bipartite entanglement [[pdf]]({{ 'TQI.6.pdf' | relative_url }})
+7. Permutation invariance and unitarily invariant measures [[pdf]]({{ 'TQI.7.pdf' | relative_url }})
+8. Quantum channel capacities [[pdf]]({{ 'TQI.8.pdf' | relative_url }})
+
+### Individual chapters (compact layout)
+
+1. Mathematical preliminaries [[pdf]]({{ 'TQI.double.1.pdf' | relative_url }})
+2. Basic notions of quantum information [[pdf]]({{ 'TQI.double.2.pdf' | relative_url }})
+3. Similarity and distance among states and channels [[pdf]]({{ 'TQI.double.3.pdf' | relative_url }})
+4. Unital channels and majorization [[pdf]]({{ 'TQI.double.4.pdf' | relative_url }})
+5. Quantum entropy and source coding [[pdf]]({{ 'TQI.double.5.pdf' | relative_url }})
+6. Bipartite entanglement [[pdf]]({{ 'TQI.double.6.pdf' | relative_url }})
+7. Permutation invariance and unitarily invariant measures [[pdf]]({{ 'TQI.double.7.pdf' | relative_url }})
+8. Quantum channel capacities [[pdf]]({{ 'TQI.double.8.pdf' | relative_url }})
+
+{% endcapture %} 
+
+{% include collapsible.html title="The Theory of Quantum Information" content=TQI %}
