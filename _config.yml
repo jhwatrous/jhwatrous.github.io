@@ -6,3 +6,7 @@ url: "https://jhwatrous.github.io"
 markdown: kramdown
 highlighter: rouge
 theme: minima
+collections:
+  pdfs:
+    output: true
+    permalink: /:name/
