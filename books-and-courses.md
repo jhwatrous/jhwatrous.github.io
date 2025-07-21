@@ -41,7 +41,7 @@ Videos are available on the [Qiskit YouTube](https://www.youtube.com/@qiskit) ch
 
 ### Archival material
 
-This course was based in part on a course I taught at the University of Calgary many years ago. I strongly recommend the written material linked above over the notes for this course, but if you're looking for the course notes specifically they are available here as a single document (139 pages) [[pdf]({{ '/QC-notes.pdf' | relative_url }})].
+This course is based in part on a course I taught at the University of Calgary many years ago. I strongly recommend the written material linked above over the notes for this course, but if you're looking for these course notes specifically they are available here as a single document (139 pages). [[pdf]({{ '/QC-notes.pdf' | relative_url }})]
 
 {% endcapture %} 
 
@@ -82,7 +82,7 @@ Errata [[pdf]]({{ '/TQI.errata.pdf' | relative_url }})
 
 ### Archival material
 
-This book grew out of course notes I developed for a course with a similar name that I taught many times at the University of Waterloo. I recommend the book over the course notes, but if you're looking for the lecture notes specifically they are available as a single document (197 pages) [[pdf]]({{ 'TQI-notes.pdf' | relative_url }})
+This book grew out of lecture notes for a course having a similar name that I taught many times at the University of Waterloo. I strongly recommend the book over the course notes, but if you're looking for the lecture notes specifically they are available here as a single document (197 pages). [[pdf]]({{ 'TQI-notes.pdf' | relative_url }})
 
 {% endcapture %} 
 
@@ -125,7 +125,7 @@ Latest update: October 19, 2020
 
 {% capture QIT-topics %}
 
-This was an advanced graduate course on quantum information theory, including video lectures and notes, taught online (by necessity) in Spring 2020. The videos took a long time to create and I only managed to cover about half of the material I had intended for the course.
+This was an advanced graduate course on quantum information theory, including video lectures and notes, taught online (unexpectedly and by necessity) in Spring 2020. The videos took a long time to create and I only managed to cover about half of the material I had intended for the course. (Sorry for that.)
 
 ### Lecture notes
 
