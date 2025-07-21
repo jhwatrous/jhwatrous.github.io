@@ -20,7 +20,7 @@ This is a course on the theory of quantum computing, consisting of 16 lessons di
 
 ### Videos
 
-Videos are available on the [Qiskit](https://www.youtube.com/@qiskit) YouTube channel as a [playlist](https://www.youtube.com/playlist?list=PLOFEBzvs-VvqKKMXX4vbi4EB1uaErFMSO) or by lesson:
+Videos are available on the [Qiskit YouTube](https://www.youtube.com/@qiskit) channel as a [playlist](https://www.youtube.com/playlist?list=PLOFEBzvs-VvqKKMXX4vbi4EB1uaErFMSO) or by lesson:
 
 - Lesson 1: [Single Systems](https://youtu.be/3-c4xJa7Flk)
 - Lesson 2: [Multiple Systems](https://youtu.be/DfZZS8Spe7U)
@@ -79,3 +79,38 @@ Errata [[pdf]]({{ '/TQI.errata.pdf' | relative_url }})
 {% endcapture %} 
 
 {% include collapsible.html title="The Theory of Quantum Information" content=TQI %}
+
+{% capture ToC %}
+
+This is a traditional undergraduate course on the theory of computing covering finite automata, context-free grammars, and Turing machines that I taught at the University of Waterloo many times, most recently in Spring 2019.
+
+### Lecture notes
+
+All 20 lectures in one file (227 pages) [[pdf]]({{ 'ToC.pdf' | relative_url }})
+
+1. Course overview and mathematical foundations [[pdf]]({{ 'ToC.01.pdf' | relative_url }})
+2. Countability for languages; deterministic finite automata [[pdf]]({{ 'ToC.02.pdf' | relative_url }})
+3. Nondeterministic finite automata [[pdf]]({{ 'ToC.03.pdf' | relative_url }})
+4. Regular operations and regular expressions [[pdf]]({{ 'ToC.04.pdf' | relative_url }})
+5. Proving languages to be nonregular [[pdf]]({{ 'ToC.05.pdf' | relative_url }})
+6. Further discussion of regular languages [[pdf]]({{ 'ToC.06.pdf' | relative_url }})
+7. Context-free grammars and languages [[pdf]]({{ 'ToC.07.pdf' | relative_url }})
+8. Parse trees, ambiguity, and Chomsky normal form [[pdf]]({{ 'ToC.08.pdf' | relative_url }})
+9. Properties of context-free languages [[pdf]]({{ 'ToC.09.pdf' | relative_url }})
+10. Proving languages to be non-context free [[pdf]]({{ 'ToC.10.pdf' | relative_url }})
+11. Pushdown automata [[pdf]]({{ 'ToC.11.pdf' | relative_url }})
+12. Turing machines [[pdf]]({{ 'ToC.12.pdf' | relative_url }})
+13. Variants of Turing machines [[pdf]]({{ 'ToC.13.pdf' | relative_url }})
+14. Stack machines [[pdf]]({{ 'ToC.14.pdf' | relative_url }})
+15. Encodings; examples of decidable languages [[pdf]]({{ 'ToC.15.pdf' | relative_url }})
+16. Universal Turing machines and undecidable languages [[pdf]]({{ 'ToC.16.pdf' | relative_url }})
+17. More undecidable languages; reductions [[pdf]]({{ 'ToC.17.pdf' | relative_url }})
+18. Further discussion of computability [[pdf]]({{ 'ToC.18.pdf' | relative_url }})
+19. Time-bounded computations [[pdf]]({{ 'ToC.19.pdf' | relative_url }})
+20. NP, polynomial-time mapping reductions, and NP-completeness [[pdf]]({{ 'ToC.20.pdf' | relative_url }})
+
+Latest update: October 19, 2020
+
+{% endcapture %} 
+
+{% include collapsible.html title="Introduction to the theory of computing" content=ToC %}
