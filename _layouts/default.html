@@ -35,30 +35,44 @@
       <main>
 	{{ content }}
       </main>
-      
+
       <footer>
-	<p>&copy; 2025 {{ site.title }}</p>
-	<button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+	<div class="footer-content">
+          <div class="copyright">&copy; 2025 {{ site.title }</div>
+          <div class="theme-toggle-container">
+            <div id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+              <div class="theme-option dark" data-theme="dark">🌙</div>
+              <div class="theme-option light" data-theme="light">☀️</div>
+            </div>
+          </div>
+	</div>
       </footer>
+      
     </div>
     <script>
       const themeToggle = document.getElementById('theme-toggle');
-      const currentTheme = localStorage.getItem('theme') || 'dark'; // Changed default to 'dark'
+      const darkOption = themeToggle.querySelector('.dark');
+      const lightOption = themeToggle.querySelector('.light');
+      const currentTheme = localStorage.getItem('theme') || 'dark';
 
       // Set initial theme
       document.documentElement.setAttribute('data-theme', currentTheme);
-      themeToggle.textContent = currentTheme === 'dark' ? '☀️' : '🌙';
+      updateToggleState(currentTheme);
 
-      // Toggle theme
+      function updateToggleState(theme) {
+          darkOption.classList.toggle('active', theme === 'dark');
+          lightOption.classList.toggle('active', theme === 'light');
+      }
+
+      // Toggle theme on click
       themeToggle.addEventListener('click', () => {
-          const theme = document.documentElement.getAttribute('data-theme');
-          const newTheme = theme === 'dark' ? 'light' : 'dark';
+          const currentTheme = document.documentElement.getAttribute('data-theme');
+          const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
           
           document.documentElement.setAttribute('data-theme', newTheme);
-          themeToggle.textContent = newTheme === 'dark' ? '☀️' : '🌙';
+          updateToggleState(newTheme);
           localStorage.setItem('theme', newTheme);
       });
     </script>
-
   </body>
 </html>
