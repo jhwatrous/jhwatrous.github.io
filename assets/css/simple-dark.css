@@ -48,13 +48,13 @@ header h1 {
     margin-top: 0.25em;
     margin-bottom: 0;
     font-size: 3em;
-    line-height: 1;
+    line-height: 1.08;
 }
 
 .header-links {
     text-align: center;
-    margin-bottom: 1em;
-    margin-top: 0.5em;
+    margin-bottom: 0.75em;
+    margin-top: 0.75em;
 }
 
 .header-links a {
@@ -74,8 +74,8 @@ header nav {
 }
 
 header nav a {
-    font-size: 0.75em;
-    padding: 8px 16px;
+    font-size: 0.8em;
+    padding: 7.5px 15px;
     background-color: var(--bg-secondary);
     border-radius: 4px;
     text-decoration: none;
