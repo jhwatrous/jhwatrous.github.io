@@ -160,7 +160,7 @@ details summary::before {
   content: '▲'; /* Plain Unicode triangle */
   position: absolute;
   left: 0;
-  top: 0.45em;
+  top: 0.5em;
   transition: transform 0.2s ease;
   transform: rotate(90deg);
   color: inherit;
