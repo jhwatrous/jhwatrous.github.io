@@ -1,0 +1,4 @@
+<details{% if include.open %} open{% endif %}>
+  <summary>{{ include.title }}</summary>
+  {{ include.content | markdownify }}
+</details>
