@@ -11,18 +11,18 @@ This is a course on the theory of quantum computing, consisting of 16 lessons di
 
 ### Written material
 
-- Download all 16 lessons as a single file [[pdf]]({{ '/UQIC.pdf' | relative_url }})
+- Download all 16 lessons as a single file [[pdf]({{ '/UQIC.pdf' | relative_url }})]
 - Find four courses named for the four units from [Quantum learning](https://quantum.cloud.ibm.com/learning/en) on the IBM Quantum Platform:
   - [Basics of quantum information](https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information)
   - [Fundamentals of quantum algorithms](https://quantum.cloud.ibm.com/learning/en/courses/fundamentals-of-quantum-algorithms)
   - [General formulation of quantum information](https://quantum.cloud.ibm.com/learning/en/courses/general-formulation-of-quantum-information)
   - [Foundations of quantum error correction](https://quantum.cloud.ibm.com/learning/en/courses/foundations-of-quantum-error-correction)
 
-### Videos
+### Videos and slides
 
-Videos are available on the [Qiskit YouTube](https://www.youtube.com/@qiskit) channel as a [playlist](https://www.youtube.com/playlist?list=PLOFEBzvs-VvqKKMXX4vbi4EB1uaErFMSO) or by lesson:
+Videos are available on the [Qiskit YouTube](https://www.youtube.com/@qiskit) channel as a [playlist](https://www.youtube.com/playlist?list=PLOFEBzvs-VvqKKMXX4vbi4EB1uaErFMSO) or individually by lesson. Slides used to create the videos, in pdf format, are also available for each lesson.
 
-1. Single Systems [[YouTube](https://youtu.be/3-c4xJa7Flk)]
+1. Single Systems [[YouTube](https://youtu.be/3-c4xJa7Flk) | [pdf]({{ '/UQIC.slides.01.pdf' | relative_url }})]
 2. Multiple Systems [[YouTube](https://youtu.be/DfZZS8Spe7U)]
 3. Quantum Circuits [[YouTube](https://youtu.be/30U2DTfIrOU)]
 4. Entanglement in Action [[YouTube](https://youtu.be/GSsElSQgMbU)]
@@ -45,7 +45,7 @@ Videos are available on the [Qiskit YouTube](https://www.youtube.com/@qiskit) ch
 
 {% capture TQI %}
 
-This book published by [Cambridge University Press](https://www.cambridge.org/) in April 2018, and is available for purchase through the publisher and other standard distribution channels. A manuscript of the book can be found below — it has been made available for personal use only and must not be sold or redistributed.
+This book was published by [Cambridge University Press](https://www.cambridge.org/) in April 2018, and is available for purchase through the publisher and other standard distribution channels. A manuscript of the book can be found below — it has been made available for personal use only and must not be sold or redistributed.
 
 Errata [[pdf]]({{ '/TQI.errata.pdf' | relative_url }})
 
@@ -134,7 +134,7 @@ All 8 lectures in one file (106 pages) [[pdf]]({{ 'QIT-notes.pdf' | relative_url
 
 Latest update: March 14, 2021
 
-### Video lectures
+### Videos
 
 1. Conic programming [[YouTube](https://youtu.be/Teu1ZR-eW2A)]
 2. Max-relative entropy and conditional min-entropy [[YouTube](https://youtu.be/5x0UHlsXhOI)]
