@@ -74,8 +74,8 @@ header nav {
 }
 
 header nav a {
-    font-size: 1.25em;
-    padding: 5px 10px;
+    font-size: 0.75em;
+    padding: 8px 16px;
     background-color: var(--bg-secondary);
     border-radius: 4px;
     text-decoration: none;
