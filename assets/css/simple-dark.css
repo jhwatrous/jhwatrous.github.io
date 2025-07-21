@@ -162,7 +162,7 @@ details summary::before {
   left: 0;
   top: 0.45em;
   transition: transform 0.2s ease;
-  transform: rotate(-90deg);
+  transform: rotate(90deg);
   color: inherit;
   background: none;
   border: none;
@@ -170,7 +170,7 @@ details summary::before {
 }
 
 details[open] summary::before {
-  transform: rotate(0deg);
+  transform: rotate(180deg);
 }
 
 details summary h2 {
