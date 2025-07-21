@@ -113,4 +113,38 @@ Latest update: October 19, 2020
 
 {% endcapture %} 
 
-{% include collapsible.html title="Introduction to the theory of computing" content=ToC %}
+{% include collapsible.html title="Introduction to the Theory of Computing" content=ToC %}
+
+{% capture QIT-topics %}
+
+This was an advanced graduate course on quantum information theory, including video lectures and notes, taught online (by necessity) in Spring 2020. The videos took a long time to create and I only managed to cover about half of the material I had intended for the course.
+
+### Lecture notes
+
+All 8 lectures in one file (106 pages) [[pdf]]({{ 'QIT-notes.pdf' | relative_url }})
+
+1. Conic programming [[pdf]]({{ 'QIT-notes.01.pdf' | relative_url }})
+2. Max-relative entropy and conditional min-entropy [[pdf]]({{ 'QIT-notes.02.pdf' | relative_url }})
+3. Smoothing and optimizing max-relative entropy [[pdf]]({{ 'QIT-notes.03.pdf' | relative_url }})
+4. Regularization of the smoothed max-relative entropy [[pdf]]({{ 'QIT-notes.04.pdf' | relative_url }})
+5. Min-relative entropy, conditional max-entropy, and hypothesis-testing relative entropy [[pdf]]({{ 'QIT-notes.05.pdf' | relative_url }})
+6. Nonlocal games and Tsirelson’s theorem [[pdf]]({{ 'QIT-notes.06.pdf' | relative_url }})
+7. A semidefinite program for the entangled bias of XOR games [[pdf]]({{ 'QIT-notes.07.pdf' | relative_url }})
+8. The hierarchy of Navascues, Pironio, and Acin [[pdf]]({{ 'QIT-notes.08.pdf' | relative_url }})
+
+Latest update: March 14, 2021
+
+### Video lectures
+
+1. Conic programming [[YouTube](https://youtu.be/Teu1ZR-eW2A)]
+2. Max-relative entropy and conditional min-entropy [[YouTube](https://youtu.be/5x0UHlsXhOI)]
+3. Smoothing and optimizing max-relative entropy [[YouTube](https://youtu.be/_mEIEHInRTg)]
+4. Regularization of the smoothed max-relative entropy [[YouTube](https://youtu.be/xkaiR-0pkiI)]
+5. Min-relative entropy, conditional max-entropy, and hypothesis-testing relative entropy [[YouTube](https://youtu.be/nSdDbuAttLw)]
+6. Nonlocal games and Tsirelson’s theorem [[YouTube](https://youtu.be/IR-jacHjulI)]
+7. A semidefinite program for the entangled bias of XOR games [[YouTube](https://youtu.be/H61Ctc2hFUY)]
+8. The hierarchy of Navascues, Pironio, and Acin [[YouTube](https://youtu.be/vJV3DWvuVtM)]
+
+{% endcapture %} 
+
+{% include collapsible.html title="Advanced Topics in Quantum Information Theory" content=QIT-topics %}
