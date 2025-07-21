@@ -22,27 +22,26 @@ This is a course on the theory of quantum computing, consisting of 16 lessons di
 
 Videos are available on the [Qiskit YouTube](https://www.youtube.com/@qiskit) channel as a [playlist](https://www.youtube.com/playlist?list=PLOFEBzvs-VvqKKMXX4vbi4EB1uaErFMSO) or individually by lesson. Slides used to create the videos, in pdf format, are also available for each lesson.
 
-1. Single Systems [[YouTube](https://youtu.be/3-c4xJa7Flk)] [[pdf]({{ '/UQIC.slides.01.pdf' | relative_url }})]
-2. Multiple Systems [[YouTube](https://youtu.be/DfZZS8Spe7U)] [[pdf]({{ '/UQIC.slides.02.pdf' | relative_url }})]
-3. Quantum Circuits [[YouTube](https://youtu.be/30U2DTfIrOU)] [[pdf]({{ '/UQIC.slides.03.pdf' | relative_url }})]
-4. Entanglement in Action [[YouTube](https://youtu.be/GSsElSQgMbU)] [[pdf]({{ '/UQIC.slides.04.pdf' | relative_url }})]
-5. Quantum Query Algorithms [[YouTube](https://youtu.be/2wticzHE1vs)] [[pdf]({{ '/UQIC.slides.05.pdf' | relative_url }})]
-6. Quantum Algorithmic Foundations [[YouTube](https://youtu.be/2wxxvwRGANQ)] [[pdf]({{ '/UQIC.slides.06.pdf' | relative_url }})]
-7. Phase Estimation and Factoring [[YouTube](https://youtu.be/4nT0BTUxhJY)] [[pdf]({{ '/UQIC.slides.07.pdf' | relative_url }})]
-8. Grover’s Algorithm [[YouTube](https://youtu.be/hnpjC8WQVrQ)] [[pdf]({{ '/UQIC.slides.08.pdf' | relative_url }})]
-9. Density Matrices [[YouTube](https://youtu.be/CeK9ry8G8HQ)] [[pdf]({{ '/UQIC.slides.09.pdf' | relative_url }})]
-10. Quantum Channels [[YouTube](https://youtu.be/cMl-xIDSmXI)] [[pdf]({{ '/UQIC.slides.10.pdf' | relative_url }})]
-11. General Measurements [[YouTube](https://youtu.be/Xi9YTYzQErY)] [[pdf]({{ '/UQIC.slides.11.pdf' | relative_url }})]
-12. Purifications and Fidelity [[YouTube](https://youtu.be/jemWEdnJTnI)] [[pdf]({{ '/UQIC.slides.12.pdf' | relative_url }})]
-13. Correcting Quantum Errors [[YouTube](https://youtu.be/OoQSdcKAIZc)] [[pdf]({{ '/UQIC.slides.13.pdf' | relative_url }})]
-14. The Stabilizer Formalism [[YouTube](https://youtu.be/3ib2JP_LeIU)] [[pdf]({{ '/UQIC.slides.14.pdf' | relative_url }})]
-15. Quantum Code Constructions [[YouTube](https://youtu.be/9TCIOm8gcVQ)] [[pdf]({{ '/UQIC.slides.15.pdf' | relative_url }})]
-16. Fault-Tolerant Quantum Computation [[YouTube](https://youtu.be/aeaqXh2XXMk)] [[pdf]({{ '/UQIC.slides.16.pdf' | relative_url }})]
+1. Single Systems [[YouTube](https://youtu.be/3-c4xJa7Flk), [pdf]({{ '/UQIC.slides.01.pdf' | relative_url }})]
+2. Multiple Systems [[YouTube](https://youtu.be/DfZZS8Spe7U), [pdf]({{ '/UQIC.slides.02.pdf' | relative_url }})]
+3. Quantum Circuits [[YouTube](https://youtu.be/30U2DTfIrOU), [pdf]({{ '/UQIC.slides.03.pdf' | relative_url }})]
+4. Entanglement in Action [[YouTube](https://youtu.be/GSsElSQgMbU), [pdf]({{ '/UQIC.slides.04.pdf' | relative_url }})]
+5. Quantum Query Algorithms [[YouTube](https://youtu.be/2wticzHE1vs), [pdf]({{ '/UQIC.slides.05.pdf' | relative_url }})]
+6. Quantum Algorithmic Foundations [[YouTube](https://youtu.be/2wxxvwRGANQ), [pdf]({{ '/UQIC.slides.06.pdf' | relative_url }})]
+7. Phase Estimation and Factoring [[YouTube](https://youtu.be/4nT0BTUxhJY), [pdf]({{ '/UQIC.slides.07.pdf' | relative_url }})]
+8. Grover’s Algorithm [[YouTube](https://youtu.be/hnpjC8WQVrQ), [pdf]({{ '/UQIC.slides.08.pdf' | relative_url }})]
+9. Density Matrices [[YouTube](https://youtu.be/CeK9ry8G8HQ), [pdf]({{ '/UQIC.slides.09.pdf' | relative_url }})]
+10. Quantum Channels [[YouTube](https://youtu.be/cMl-xIDSmXI), [pdf]({{ '/UQIC.slides.10.pdf' | relative_url }})]
+11. General Measurements [[YouTube](https://youtu.be/Xi9YTYzQErY), [pdf]({{ '/UQIC.slides.11.pdf' | relative_url }})]
+12. Purifications and Fidelity [[YouTube](https://youtu.be/jemWEdnJTnI), [pdf]({{ '/UQIC.slides.12.pdf' | relative_url }})]
+13. Correcting Quantum Errors [[YouTube](https://youtu.be/OoQSdcKAIZc), [pdf]({{ '/UQIC.slides.13.pdf' | relative_url }})]
+14. The Stabilizer Formalism [[YouTube](https://youtu.be/3ib2JP_LeIU), [pdf]({{ '/UQIC.slides.14.pdf' | relative_url }})]
+15. Quantum Code Constructions [[YouTube](https://youtu.be/9TCIOm8gcVQ), [pdf]({{ '/UQIC.slides.15.pdf' | relative_url }})]
+16. Fault-Tolerant Quantum Computation [[YouTube](https://youtu.be/aeaqXh2XXMk), [pdf]({{ '/UQIC.slides.16.pdf' | relative_url }})]
 
 ### Archival material
 
 This course was based in part on a course I taught at the University of Calgary many years ago. I strongly recommend the written material linked above over the notes for this course, but if you're looking for the course notes specifically they are available here as a single document (139 pages) [[pdf]({{ '/QC-notes.pdf' | relative_url }})].
-
 
 {% endcapture %} 
 
@@ -80,6 +79,10 @@ Errata [[pdf]]({{ '/TQI.errata.pdf' | relative_url }})
 6. Bipartite entanglement [[pdf]]({{ 'TQI.double.6.pdf' | relative_url }})
 7. Permutation invariance and unitarily invariant measures [[pdf]]({{ 'TQI.double.7.pdf' | relative_url }})
 8. Quantum channel capacities [[pdf]]({{ 'TQI.double.8.pdf' | relative_url }})
+
+### Archival material
+
+This book grew out of course notes I developed for a course with a similar name that I taught many times at the University of Waterloo. I recommend the book over the course notes, but if you're looking for the lecture notes specifically they are available as a single document (197 pages) [[pdf]]({{ 'TQI-notes.pdf' | relative_url }})
 
 {% endcapture %} 
 
