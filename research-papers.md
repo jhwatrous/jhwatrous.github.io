@@ -68,3 +68,4 @@ title: Research papers
 - Attila Kondacs and John Watrous. On the power of quantum finite state automata. *Proceedings of the 38th Annual IEEE Symposium on Foundations of Computer Science*, pages 66–75, 1997. [[pdf]()]
 - John Watrous. On one-dimensional quantum cellular automata. *Proceedings of the 36th Annual IEEE Symposium on Foundations of Computer Science*, pages 528–537, 1995. [[pdf]()]
 - John Watrous. A polynomial-time algorithm for the Artin-Whaples approximation theorem. *Number Theory: Fourth Conference of the Canadian Number Theory Association*, pages 397–407, 1995.
+{:.spaced-list}

@@ -187,3 +187,11 @@ details {
   margin-top: 1em;
   padding-left: 1.5em;
 }
+
+.spaced-list li {
+  margin-bottom: 1em; /* or whatever spacing you want */
+}
+
+.spaced-list li:last-child {
+  margin-bottom: 0; /* Remove margin from the last item */
+}
