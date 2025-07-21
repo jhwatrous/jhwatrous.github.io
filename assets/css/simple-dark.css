@@ -47,8 +47,8 @@ header h1 {
     text-align: center;
     margin-top: 0.25em;
     margin-bottom: 0;
-    font-size: 4em;
-    line-height: 1.1;
+    font-size: 3em;
+    line-height: 1;
 }
 
 .header-links {
@@ -58,7 +58,7 @@ header h1 {
 }
 
 .header-links a {
-    margin: 0 0.5em;
+    margin: 0 0.125em;
     text-decoration: none;
 }
 
@@ -74,7 +74,8 @@ header nav {
 }
 
 header nav a {
-    padding: 8px 16px;
+    font-size: 1.25em;
+    padding: 5px 10px;
     background-color: var(--bg-secondary);
     border-radius: 4px;
     text-decoration: none;
