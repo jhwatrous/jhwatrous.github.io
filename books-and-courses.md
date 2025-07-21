@@ -22,7 +22,7 @@ This is a course on the theory of quantum computing, consisting of 16 lessons di
 
 Videos are available on the [Qiskit YouTube](https://www.youtube.com/@qiskit) channel as a [playlist](https://www.youtube.com/playlist?list=PLOFEBzvs-VvqKKMXX4vbi4EB1uaErFMSO) or individually by lesson. Slides used to create the videos, in pdf format, are also available for each lesson.
 
-1. Single Systems [[YouTube](https://youtu.be/3-c4xJa7Flk) | [pdf]({{ '/UQIC.slides.01.pdf' | relative_url }})]
+1. Single Systems [[YouTube](https://youtu.be/3-c4xJa7Flk) \| [pdf]({{ '/UQIC.slides.01.pdf' | relative_url }})]
 2. Multiple Systems [[YouTube](https://youtu.be/DfZZS8Spe7U)]
 3. Quantum Circuits [[YouTube](https://youtu.be/30U2DTfIrOU)]
 4. Entanglement in Action [[YouTube](https://youtu.be/GSsElSQgMbU)]
