@@ -143,5 +143,5 @@ footer {
 
 .theme-option.active {
     border-color: var(--accent-primary);
-    transform: scale(0.95);
+/*    transform: scale(0.95);*/
 }
