@@ -5,8 +5,7 @@ title: Books and courses
 
 # Books and courses
 
-<details>
-  <summary><h2>Understanding Quantum Information and Computation</h2></summary>
+## Understanding Quantum Information and Computation
 
 This is a course on the theory of quantum computing that I created while working for IBM. It consists of 16 lessons divided into four units, with each lesson including a video and a written component, and covers subject matter roughly corresponding to a one-semester university course at the advanced undergraduate or introductory graduate level.
 
@@ -39,5 +38,3 @@ Videos are available on the [Qiskit](https://www.youtube.com/@qiskit) YouTube ch
 - Lesson 14: [The Stabilizer Formalism](https://youtu.be/3ib2JP_LeIU)
 - Lesson 15: [Quantum Code Constructions](https://youtu.be/9TCIOm8gcVQ)
 - Lesson 16: [Fault-Tolerant Quantum Computation](https://youtu.be/aeaqXh2XXMk)
-
-</details>
