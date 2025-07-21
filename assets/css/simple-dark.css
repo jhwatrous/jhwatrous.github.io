@@ -145,3 +145,37 @@ footer {
     border-color: var(--accent-primary);
 /*    transform: scale(0.95);*/
 }
+
+details summary {
+  list-style: none; /* Remove default triangle */
+  cursor: pointer;
+  position: relative;
+  padding-left: 1.5em;
+}
+
+details summary::-webkit-details-marker {
+  display: none; /* Remove default triangle in WebKit browsers */
+}
+
+details summary::before {
+  content: '▶';
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: transform 0.2s ease;
+}
+
+details[open] summary::before {
+  transform: rotate(90deg);
+}
+
+details summary h2 {
+  display: inline;
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.collapsible-content {
+  margin-top: 1em;
+  padding-left: 1.5em;
+}

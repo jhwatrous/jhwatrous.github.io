@@ -1,4 +1,6 @@
 <details{% if include.open %} open{% endif %}>
-  <summary>{{ include.title }}</summary>
-  {{ include.content | markdownify }}
+  <summary><h2>{{ include.title }}</h2></summary>
+  <div class="collapsible-content">
+    {{ include.content | markdownify }}
+  </div>
 </details>
