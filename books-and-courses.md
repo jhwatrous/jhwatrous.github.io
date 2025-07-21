@@ -47,7 +47,7 @@ Videos are available on the [Qiskit](https://www.youtube.com/@qiskit) YouTube ch
 
 Published by [Cambridge University Press](https://www.cambridge.org/) in April 2018. This book is available for purchase through Cambridge University Press and other standard distribution channels. Please see the publisher's web page to order the book or to obtain further details on its publication. A manuscript of the book can be found below—it has been made available for personal use only and must not be sold or redistributed.
 
-Errata [[pdf]]({{ '/TQI-errata.pdf' | relative_url }})
+Errata [[pdf]]({{ '/TQI.errata.pdf' | relative_url }})
 
 ### Complete book
 

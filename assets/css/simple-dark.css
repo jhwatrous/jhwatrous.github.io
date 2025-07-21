@@ -160,7 +160,7 @@ details summary::before {
   content: '▲'; /* Plain Unicode triangle */
   position: absolute;
   left: 0.1em;
-  top: 0.6em;
+  top: 0.64em;
   transition: transform 0.2s ease;
   transform: rotate(90deg);
   color: inherit;
@@ -177,6 +177,10 @@ details summary h2 {
   display: inline;
   margin: 0;
   font-size: 1.5em;
+}
+
+details {
+  margin-bottom: 1.25em; /* Add this line */
 }
 
 .collapsible-content {
