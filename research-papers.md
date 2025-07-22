@@ -5,6 +5,8 @@ title: Research papers
 
 # Research papers
 
+The list that follows includes all of my research papers. Please note that the linked pdf files are not necessarily the published versions of these papers — in some cases they are manuscript versions, and in a few cases they include revisions were made after the papers were published (in which case the date of the revision is indicated).
+
 - Soumik Ghosh and John Watrous. Complexity limitations on one-turn quantum refereed games. *Theory of Computing Systems* 67(2): 383–412, 2023. [[pdf]({{ '/GhoshWatrous2023.pdf' | relative_url }}), arXiv:[2002.01509](http://arxiv.org/abs/2002.01509)]
 - John Bostanci and John Watrous. Quantum game theory and the complexity of approximating quantum Nash equilibria. *Quantum* 6: 882, 2022. [[pdf]({{ '/BostanciWatrous2022.pdf' | relative_url }}), arXiv:[2102.00512](http://arxiv.org/abs/arXiv:2102.00512)]
 - Mark Girard, Debbie Leung, Jeremy Levick, Chi-Kwong Li, Vern Paulsen, Yiu Tung Poon, and John Watrous. On the mixed-unitary rank of quantum channels. *Communications in Mathematical Physics* 394(2): 919–951, 2022. [[pdf]({{ '/GirardLeungLevickLiPaulsenPoonWatrous2022.pdf' | relative_url }}), arXiv:[2003.14405](http://arxiv.org/abs/2003.14405)]
