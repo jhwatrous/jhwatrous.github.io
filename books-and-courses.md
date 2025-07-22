@@ -41,7 +41,7 @@ Videos are available on the [Qiskit YouTube](https://www.youtube.com/@qiskit) ch
 
 ### Archival material
 
-This course is based in part on a course I taught at the University of Calgary many years ago. I strongly recommend the written material linked above over the notes for this course, but if you're looking for these course notes specifically they are available here as a single document (139 pages). [[pdf]({{ '/QC-notes.pdf' | relative_url }})]
+This course is partially based on a course I taught at the University of Calgary many years ago. I strongly recommend the written material linked above over the notes for this course, but if you're looking for these course notes specifically they are available here as a single document (139 pages). [[pdf]({{ '/QC-notes.pdf' | relative_url }})]
 
 {% endcapture %} 
 
