@@ -189,7 +189,7 @@ details {
 }
 
 .spaced-list li {
-  margin-bottom: 1em; /* or whatever spacing you want */
+  margin-bottom: 0.5em;
 }
 
 .spaced-list li:last-child {
