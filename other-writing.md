@@ -5,7 +5,7 @@ title: Other writing
 
 # Other writing
 
-This page includes an unordered collection of writings — *thoughts and stories* — that centre around my experiences as a researcher and educator. I prefer to treat them as works in progress, and reserve the right to edit them at any point. Please do not read if you're not interested.
+This page includes an unordered collection of writings, which I call *thoughts and stories,* that centre around my experiences as a researcher and educator. I prefer to treat them as works in progress, and reserve the right to edit them at any point. Please don't read if you're not interested.
 
 {% comment %}
 
