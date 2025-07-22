@@ -49,7 +49,7 @@ This course is partially based on a course I taught at the University of Calgary
 
 {% capture TQI %}
 
-This book was published by [Cambridge University Press](https://www.cambridge.org/) in April 2018, and is available for purchase through the publisher and other standard distribution channels. A manuscript of the book can be found below — it has been made available for personal use only and must not be sold or redistributed.
+This book was published by [Cambridge University Press](https://www.cambridge.org/ca/universitypress) in April 2018, and is available for purchase through the publisher and other standard distribution channels. A manuscript version of the book can be found below — it has been made available for personal use only and must not be sold or redistributed.
 
 Errata [[pdf]]({{ '/TQI.errata.pdf' | relative_url }})
 
@@ -90,7 +90,7 @@ This book grew out of lecture notes for a course having a similar name that I ta
 
 {% capture ToC %}
 
-This is a traditional undergraduate course on the theory of computing covering finite automata, context-free grammars, and Turing machines that I taught at the University of Waterloo many times, most recently in Spring 2019.
+These are lecture notes for a traditional undergraduate course on the theory of computing covering finite automata, context-free grammars, and Turing machines that I taught at the University of Waterloo many times, most recently in Spring 2019.
 
 ### Lecture notes
 
