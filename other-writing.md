@@ -58,3 +58,21 @@ I hope there's some encouragement to be found in this story. Looking back now, I
 {% endcapture %} 
 
 {% include collapsible.html title="A fatal headshot scooping" content=scooping %}
+
+{% capture advisors %}
+
+When I was a graduate student my advisor was Eric Bach. He was a great advisor! He didn't work on quantum computing — very few people did back then — but I first learned about quantum computing through a reading group on it that Eric set up. He encouraged me to work on what I found to be interesting and gave me the freedom to do that. And though he didn't work on quantum computing specifically, he knew a hell of a lot about mathematics and computation, and I always knew more when I left his office than when I'd entered.
+
+Some graduate students are not so lucky. In various roles I held as a professor, including being a graduate program director and the director of an institute, I sometimes interacted with students in distress over their advisor's treatment of them. Often they would cry. While I believe most professors I worked with treated their students kindly, some evidently did not.
+
+I don't know why some professors treat their students the way they do. I suspect in some cases they're just trying to replicate the experience they had as a student, but they may not be able to do that. Or maybe the problem is that they are, in fact, able. Some professors drive hard and expect that from their students in return, and forget that their students aren't them. And some professors are just assholes.
+
+In situations like this the power dynamic is completely imbalanced and students feel powerless. Switching to another advisor can be very difficult for multiple reasons, and there's always the fear that the student isn't going to be able to go anywhere without their advisor's letter of support. The perception is that this person that's making them miserable can end their career and everything they've worked for.
+
+So what should you do if, as a student, you find yourself in this situation? I wish I had a good answer. My advice is to start by telling someone, like the program director for whatever degree program you're enrolled in, or maybe an associate chair or dean in charge of graduate studies. Nobody can help you if they don't know. Ask around — every program and department is different. Your department or school may have a graduate advocate or an ombudsperson with whom you can discuss the matter confidentially and can provide you with advice. Whatever happens, you don't need to put up with it — there are many paths your career can take and your advisor doesn't hold the keys to all of them.
+
+And if you're you're deciding whom to work with as a graduate student, be sure to talk to people before making a decision. The right answer is not necessarily to go with the advisor or school with the bigger name. Talk to your would-be advisor and ask questions, and talk to their students as well. The importance of having an advisor that supports and encourages you, and has your best interests in mind, should never be underestimated.
+
+{% endcapture %} 
+
+{% include collapsible.html title="Good advisors and bad advisors" content=advisors %}
