@@ -125,7 +125,7 @@ Latest update: October 19, 2020
 
 {% capture QIT-topics %}
 
-This was an advanced graduate course on quantum information theory, including video lectures and notes, taught online (unexpectedly and by necessity) in Spring 2020. The videos took a long time to create and I only managed to cover about half of the material I had intended for the course. (Sorry for that.)
+This was an advanced graduate course on quantum information theory, including video lectures and notes, taught online (unexpectedly and by necessity) in Spring 2020. The videos took a long time to create and I only managed to cover about half of the material I had intended for the course.
 
 ### Lecture notes
 
