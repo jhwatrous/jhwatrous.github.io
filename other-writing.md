@@ -33,7 +33,7 @@ So I begged for another shot, and was offered an 8am class the next semester to 
 
 I think of this experience as being formative. When I was a professor, I put a lot of work into being a good instructor, and have no doubt that this experience was a part of what motivated that. I tried to put myself in the shoes of my students and never asked them to do something I hadn't done myself to completion. I didn't hide the day before the final exam, I held "all day" office hours from 9 to 5 instead — those were unusually fun office hours in my memory. I memorized the name of every student in my classes, partly as a challenge but I quickly learned how much it's appreciated. Of course, I also did my best to explain the material. All in all, I would like to think that I straightened myself out, and have been led to believe that others have found value in my efforts.
 
-But I'll never get that first class back. And to those that took that class with me, all I can say is that I am sorry.
+But I'll never get that first class back. And to those that took that class with me, I can only say that I am sorry.
 
 {% endcapture %} 
 
