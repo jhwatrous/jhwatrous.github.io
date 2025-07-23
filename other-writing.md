@@ -5,7 +5,7 @@ title: Other writing
 
 # Other writing
 
-This page includes an unordered collection of writings, which I call *thoughts and stories,* that centre around my experiences as a researcher and educator. I prefer to treat them as works in progress and reserve the right to edit them at any point. Please don't read if you're not interested.
+This page includes an unordered collection of writings, which I call *thoughts and stories,* that centre around my experiences and opinions as a researcher and educator. I prefer to treat them as works in progress and reserve the right to edit them at any point. Please don't read if you're not interested.
 
 {% comment %}
 
@@ -76,3 +76,31 @@ And if you're you're deciding whom to work with as a graduate student, be sure t
 {% endcapture %} 
 
 {% include collapsible.html title="Good advisors and bad advisors" content=advisors %}
+
+{% capture job-take-everything %}
+
+From January to December of 2021, I served as the Interim Executive Director of the Institute for Quantum Computing at the University of Waterloo. Interim means temporary: it was a one-year appointment. But all along there was an expectation that I would move into the role on a *continuing* basis, meaning a five-year term without the word *interim* to let people know not to take me too seriously. Initially I thought this was likely, and others at the university thought the same.
+
+The institute had been searching for a director for several years. At the beginning of the search, there had been great expectations and lofty visions of the hero and savior that would take on the role, but the search had failed repeatedly. When the pandemic hit and lockdowns followed, the need to appoint someone internally came sharply into focus. There were discussions, and the outcome was that I was asked if I would take on the interim role by a senior leader at the university. I would not describe it as a kindly request. In any case, there was a part of me that wanted to do it and part of me that didn't, but one thing is for sure: I had absolutely no idea what the job actually entailed. I said yes.
+
+Once I started, I was quickly overwhelmed. I suddenly had 50 staff members under me, compared with zero at all points prior, and an annual budget with twice as many figures as I'd ever had to worry about. Believe it or not, this part actually wasn't so bad because the senior staffers at the institute — true heroes in this story — mostly took care of these things. 
+
+But there were a lot of other things on my plate, and I really didn't know what I was doing. I had no training to draw on. I was trained to prove theorems, but there were no theorems involved. Mostly it was about money, building relationships with government and industry to get it, and fighting with others at the university about it. My days were packed with meetings, and in the beginning my goal was merely to get through each one without looking like a complete idiot. There were definitely a few for which I did not succeed.
+
+But the real problems started once I gained my footing, because of how hard I leaned into the job. In fact, I gave it pretty much everything I had. I wanted to succeed, and that meant the institute succeeding — and it wasn't long before there wasn't really any difference between IQC and my life.
+
+By July, things had become completely insane. There was so much I needed to get done that there was no hope. I hadn't even thought about research in 6 months. Then I thought I'd lost a $25 million line of funding that the institute depended upon. I would be the first director in nearly 20 years to fail to secure that support. As a result of it all I crashed and burned, I guess you could say. I will spare you (and more importantly myself) the details.
+
+My wife helped me, and I'm both fortunate and grateful for that. She got in touch with my assistant, who wiped my calendar clean for a week so I could recover. A forced vacation, essentially, but also a welcome one. The weird thing is that I got the impression that my assistant had seen this before. She was the assistant to a couple of directors before me and several department chairs prior to that, so I'm sure she has seen quite a lot.
+
+At some point I realized that, with the pandemic and everything else, I'd neglected to take any vacation in about 18 months. That must have been a contributing factor. So perhaps this is one moral of the story: Sometime you have to take a break. And if you don't, you'll **have** to take a break.
+
+I did eventually recover (though it did take longer than a week), and in the process I came to the realization that taking this job on a continuing basis was simply not something I could do to myself. I felt terrible about letting the institute down, just when it was finally about to get a new director, and it was very difficult to tell my colleagues that I would not be taking the job on a continuing basis. But to say that a weight had been lifted off my shoulders would be an understatement.
+
+There were more challenges and struggles to come in the second half of the year, and I wouldn't say that I necessarily finished strong, but I completed the term I'd agreed to serve. Someone else stepped up, and I was able to hand the institute off to the next director in what I believe was a better state than when I had started. By the end, I'd lost about 15 pounds and half of one of my eyebrows fell out. So in case you noticed this in one of my earlier videos on the Qiskit YouTube channel, that's what happened to it.
+
+My communications director (and guardian angel throughout this experience) had warned me about this sort of thing right from the start. She said, "This job will take everything you give it." That was wise advice and I should have listened.
+
+{% endcapture %} 
+
+{% include collapsible.html title="Some jobs will take everything you give them" content=job-take-everything %}
