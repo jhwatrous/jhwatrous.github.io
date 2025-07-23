@@ -5,7 +5,7 @@ title: Other writing
 
 # Other writing
 
-This page includes a collection of writings, mostly stories connected with my experiences as a researcher and educator. I prefer to treat them as works in progress and reserve the right to edit them at any point. Please don't read if you're not interested.
+This page includes a collection of writings, mostly stories connected with my experiences as an educator and researcher. I prefer to treat them as works in progress and reserve the right to edit them at any point. I have no expectations concerning anyone's interest in these stories — they're just here for those that might be.
 
 {% comment %}
 
@@ -100,3 +100,23 @@ My communications director (and guardian angel throughout this experience) had w
 {% endcapture %} 
 
 {% include collapsible.html title="Some jobs will take everything you give them" content=job-take-everything %}
+
+{% capture quantum-interactions %}
+
+When I was a graduate student, I worked on topics in quantum computing that were very much off-the-beaten-path, including quantum cellular automata, quantum finite automata, and space-bounded quantum computation. I was definitely interested in those things (and still am), but a big part of choosing to work on them was that others hadn't so much, giving a student like me a fighting chance to contribute and discover something new. I published papers on this work and was invited to speak at quantum computing workshops from time to time, but I wanted to do something more relevant and of broader interest.
+
+Then, when I graduated and began working as a postdoc at l'Université de Montréal in 1998, I started thinking about *quantum interactive proof systems.* In theoretical computer science, *interactive proof systems* are an abstract computational model involving an interaction between a hypothetical *prover* and *verifier* having different goals: the prover's goal is to convince the verifier that some given statement is true (whether or not it actually is true), while the verifier's goal is to check the validity of the prover's argument — and to not be fooled into believing the statement is true if it happens to be false. It could be said that the practical importance of this model is open to debate, but there's no questioning its theoretical importance: it's played a truly salient role in the development of complexity theory and is also important in theoretical cryptography. To be clear, these are claims about the classical version of this model, whereas I was working on the quantum version of it, which previously hadn't really been studied at all.
+
+I discovered something interesting: ordinary (meaning classical) interactive proof systems could be *parallelized* by making the model quantum, in the sense that long conversations between a classical prover and verifier could be reduced down to just three quantum messages by a quantum interactive proof system. There's no way to do this classically unless something unexpected in complexity theory happens: the polynomial-time hierarchy collapses. This is all to say that this was a bona fide interesting result illustrating a new way to take advantage of quantum information. I felt like my work had relevance for the first time. This was in the fall of 1998.
+
+A short time later, I travelled to DePaul University for the AQIP '99 (Algorithms in Quantum Information Processing) workshop. The "A" for algorithms was later shed, and the workshop became the premier conference on the theory of quantum computing known as QIP — which is coincidentally the name of the complexity class associated with quantum interactive proof systems that I now had something to say about. I wasn't invited to speak at the workshop, but I did bring some printed copies of a new paper explaining my results. I shared it with some people, and the organizers kindly squeezed in an extra talk slot for me to present it toward the end of the workshop. This likely wouldn't happen now because QIP has become much more formal and competitive, but back then it wasn't so unusual — there was no program committee and the organizers could invite whomever they chose to speak.
+
+Among those I shared my paper with was Alexei Kitaev, a name that anyone who works in quantum computing recognizes immediately. He was already a legend, even back then, and this was the first time I'd met him. At the workshop he was giving a talk on the QMA-completeness of the local Hamiltonian problem, now a cornerstone result in quantum complexity theory. Given the subject matter, I was pretty sure he would be interested in my new work, so I gave him a copy of my paper. We talked for a bit in a short conversation that a few others joined and left in a typical coffee break sort of fashion.
+
+The next morning brought another coffee break, and I was milling around when Kitaev came up to me. He'd been looking for me! He explained that he was very tired because he'd *stayed up all night* studying my paper, and he said that it was a beautiful result. I'm not exactly sure how much of that moment sunk in then and how much of it I came to appreciate later — but when I look back now it seems like it came out of a dream. One of the greatest minds of our time decided to stay up all night studying my work, and found beauty therein. Let's just say this more than made up for getting scooped right before my talk at AT&T, which I wrote about in another story.
+
+As it turns out, there really isn't much point in reading that old paper any longer. Shortly after the workshop, Kitaev invited me to come to Caltech to work with him for a couple of weeks, and in that short time we were able to prove a great deal more about quantum interactive proof systems than I had on my own, completely subsuming my original result in the process. I was awed and humbled by the power of Kitaev's brain, and without much fuss I came to the realization that I wasn't actually all that smart after all. But the new ideas and techniques I'd learned about served me well and kicked off a new phase of my research: my days of studying quantum interactions, semidefinite programs, and operator norms had begun.
+
+{% endcapture %} 
+
+{% include collapsible.html title="" content=quantum-interactions %}
