@@ -57,7 +57,7 @@ I hope there's some encouragement to be found in this story. Looking back now, I
 
 {% endcapture %} 
 
-{% include collapsible.html title="A fatal headshot scooping" content=scooping %}
+{% include collapsible.html title="A hard scooping" content=scooping %}
 
 {% capture advisors %}
 
