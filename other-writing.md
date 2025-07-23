@@ -53,7 +53,7 @@ So that was bad — but then I had to give the talk. The reality was that what I
 
 I have a memory of flying home, feeling defeated and shell shocked. But after I returned home, I just went back to work and started something new. I never again touched that nearly completed paper. Now, decades later, I no longer seem to have it in my files. And everything turned out fine. I found new results and wrote a different thesis than what I'd proposed — and if anyone on my committee realized, they didn't mention it. Of course, it also didn't matter what people thought of me, that wasn't the point of the visit.
 
-I hope there's some encouragement to be found in this story. Looking back now, I wouldn't choose not to have had this experience. I learned from it and it made me stronger. We tend to hide our failures and struggles as we focus on our successes and accomplishments, but we're all subject to the luck of the draw — and things don't always go as we might have hoped. So if you face a setback you're not alone. To my eye the only thing to be done is to put one foot in front of the other and move forward.
+I hope there's some encouragement to be found in this story. Looking back now, I wouldn't choose not to have had this experience. We tend to hide our failures and struggles as we focus on our successes and accomplishments, but we're all subject to the luck of the draw — and things don't always go as we might have hoped. In these situations, as long as putting one foot in front of the other and moving forward is an option, it's a good one to take.
 
 {% endcapture %} 
 
