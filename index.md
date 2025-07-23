@@ -5,7 +5,7 @@ title: About
 
 # About
 
-I’m an educator and researcher specializing in quantum information and computation. Here are my prior positions and affiliations:
+I’m an educator and researcher specializing in quantum information and computation. Here are some of my prior positions and affiliations:
 
 - University of Wisconsin – Madison. PhD in Computer Science, 1992–1998.
 - Université de Montréal. Postdoctoral fellow, Département d'informatique et de recherche opérationnelle, 1998–1999.
