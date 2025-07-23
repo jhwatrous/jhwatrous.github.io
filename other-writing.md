@@ -119,4 +119,4 @@ As it turns out, there really isn't much point in reading that old paper any lon
 
 {% endcapture %} 
 
-{% include collapsible.html title="" content=quantum-interactions %}
+{% include collapsible.html title="Quantum interactions" content=quantum-interactions %}
