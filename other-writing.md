@@ -5,7 +5,7 @@ title: Other writing
 
 # Other writing
 
-This page includes a collection of writings, mostly stories connected with my experiences as an educator and researcher. I prefer to treat them as works in progress and reserve the right to edit them at any point. I have no expectations concerning anyone's interest in these stories — they're just here for those that might find some value in them.
+This page includes a collection of writings: thoughts and stories connected with my experiences as an educator and researcher. I prefer to treat them as works in progress and reserve the right to edit them at any point. I have no expectations concerning anyone's interest in these writings — they're just here for those that might find some value in them.
 
 {% comment %}
 
