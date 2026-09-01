@@ -50,10 +50,9 @@ header .subtitle {
     text-align: center;
     margin-top: 0.35em;
     margin-bottom: 0;
-    font-size: 1.25em;
+    font-size: 1.5em;
     font-weight: 400;
-    line-height: 1.3;
-    opacity: 0.75;
+    line-height: 1.6
 }
 
 .header-links {
