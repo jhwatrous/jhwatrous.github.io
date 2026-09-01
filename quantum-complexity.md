@@ -1,10 +1,9 @@
 ---
 layout: course
-title: QIC 890 Quantum Complexity Theory
+title: Quantum Complexity Theory
+Subtitle: QIC 890 (Fall 2026)
 permalink: /quantum-complexity-theory/
 ---
-
-# QIC 890 – Quantum Complexity Theory
 
 This is the course webpage for QIC 890 – Quantum Complexity Theory, currently being taught at the Institute for Quantum Computing at the University of Waterloo. Course materials will be posted here as they are made available.
 

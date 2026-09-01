@@ -9,8 +9,8 @@
   <body>
     <div class="container">
       <header>
-	<h1>{{ site.title }}</h1>
-	<hr class="header-separator">
+	<h1>{{ page.title | default: site.title }}</h1>
+	{% if page.subtitle %}<p class="subtitle">{{ page.subtitle }}</p>{% endif %}
       </header>
 
       <main>
