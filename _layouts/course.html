@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/simple-dark.css' | relative_url }}">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+	<h1>{{ site.title }}</h1>
+	<hr class="header-separator">
+      </header>
+
+      <main>
+	{{ content }}
+      </main>
+
+      <footer>
+	<div class="footer-content">
+          <div class="copyright">&copy; 2026 {{ site.title }}</div>
+          <div class="theme-toggle-container">
+            <div id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+              <div class="theme-option dark" data-theme="dark">🌙</div>
+              <div class="theme-option light" data-theme="light">☀️</div>
+            </div>
+          </div>
+	</div>
+      </footer>
+
+    </div>
+    <script>
+      const themeToggle = document.getElementById('theme-toggle');
+      const darkOption = themeToggle.querySelector('.dark');
+      const lightOption = themeToggle.querySelector('.light');
+      const currentTheme = localStorage.getItem('theme') || 'dark';
+
+      // Set initial theme
+      document.documentElement.setAttribute('data-theme', currentTheme);
+      updateToggleState(currentTheme);
+
+      function updateToggleState(theme) {
+          darkOption.classList.toggle('active', theme === 'dark');
+          lightOption.classList.toggle('active', theme === 'light');
+      }
+
+      // Toggle theme on click
+      themeToggle.addEventListener('click', () => {
+          const currentTheme = document.documentElement.getAttribute('data-theme');
+          const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+
+          document.documentElement.setAttribute('data-theme', newTheme);
+          updateToggleState(newTheme);
+          localStorage.setItem('theme', newTheme);
+      });
+    </script>
+  </body>
+</html>

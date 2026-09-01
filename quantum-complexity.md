@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: course
 title: QIC 890 Quantum Complexity Theory
 permalink: /quantum-complexity-theory/
 ---
@@ -16,5 +16,5 @@ Lectures are MW 13:00–14:20 in QNC 1201. The first lecture is Wednesday, Septe
 
 The lecture notes will be posted in parts as they are completed:
 
-- [[Part I: Classical complexity primer]({{ '/quantum-complexity-part-1.pdf' | relative_url }})]
+- [Part I: Classical complexity primer]({{ '/quantum-complexity-part-1.pdf' | relative_url }})
 
