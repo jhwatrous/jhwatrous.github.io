@@ -1,7 +1,7 @@
 ---
 layout: course
 title: Quantum Complexity Theory
-Subtitle: QIC 890 (Fall 2026)
+subtitle: QIC 890 (Fall 2026)
 permalink: /quantum-complexity-theory/
 ---
 
