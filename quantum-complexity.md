@@ -9,7 +9,7 @@ This is the course webpage for QIC 890 – Quantum Complexity Theory, currently 
 
 ## General information
 
-Lectures are MW 13:00–14:20 in QNC 1201. The first lecture is Wednesday, September 9.
+Lectures are MW 13:00–14:20 in QNC 1201.
 
 The official university outline for this course is available [here](https://outline.uwaterloo.ca/viewer/view/nbvh7f).
 
@@ -20,3 +20,6 @@ The lecture notes will be posted in parts as they are completed:
 - [Part I: Classical complexity primer]({{ '/quantum-complexity-part-1.pdf' | relative_url }})
 - [Part II: Quantum polynomial time]({{ '/quantum-complexity-part-2.pdf' | relative_url }})
 
+## Problem sets
+
+- [Problem set 1]({{ '/QCT-problem-set-1.pdf' | relative_url }}) (Due October 9)
