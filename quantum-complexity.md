@@ -22,4 +22,6 @@ The lecture notes will be posted in parts as they are completed:
 
 ## Problem sets
 
+Please see the [guidelines for problem sets]({{ '/QCT-guidelines.pdf.pdf' | relative_url }}) that describes goals and expectations for problem set solutions.
+
 - [Problem set 1]({{ '/QCT-problem-set-1.pdf' | relative_url }}) (Due October 9)
