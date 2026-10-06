@@ -28,6 +28,6 @@ Please see the [guidelines for problem sets]({{ '/QCT-guidelines.pdf' | relative
 
 ## Course project
 
-- See the [project template]({{ '/QCT-project-template.tex' | relative_url }}){: download="QCT-project-template.tex"} for information on the course project along with topic suggestions.
-- A LaTeX [project template]({{ '/QCT-project-template.tex' | relative_url }}) is available for convenience (or use your own style if you prefer).
+- See the [course project handout]({{ '/QCT-project.pdf' | relative_url }}) for information on the course project along with topic suggestions.
+- A LaTeX [project template]({{ '/QCT-project-template.tex' | relative_url }}){: download="QCT-project-template.tex"} is available for convenience (or use your own style if you prefer).
 
