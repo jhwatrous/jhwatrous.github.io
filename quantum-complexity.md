@@ -25,3 +25,9 @@ The lecture notes will be posted in parts as they are completed:
 Please see the [guidelines for problem sets]({{ '/QCT-guidelines.pdf' | relative_url }}) that describes goals and expectations for problem set solutions.
 
 - [Problem set 1]({{ '/QCT-problem-set-1.pdf' | relative_url }}) (Due October 9)
+
+## Course project
+
+- See the [project template]({{ '/QCT-project-template.tex' | relative_url }}){: download="QCT-project-template.tex"} for information on the course project along with topic suggestions.
+- A LaTeX [project template]({{ '/QCT-project-template.tex' | relative_url }}) is available for convenience (or use your own style if you prefer).
+

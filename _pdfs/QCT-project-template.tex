@@ -1,0 +1,199 @@
+\documentclass[12pt]{memoir}
+
+% QIC 890 course project --- LaTeX template.
+
+%-----------------------------------------------------------------------------%
+% Packages
+
+\usepackage[T1]{fontenc}
+\usepackage{mathpazo}
+\usepackage{amsmath, amssymb, amsthm, mathtools}
+\usepackage{graphicx}
+\usepackage{needspace}
+\usepackage{tikz}
+\usepackage[colorlinks=true, linkcolor=blue, citecolor=blue,
+  urlcolor=blue]{hyperref}
+
+\frenchspacing
+\sloppybottom
+
+%-----------------------------------------------------------------------------%
+% Page layout (the same as the course notes)
+
+\settypeblocksize{8.5in}{5.5in}{*}
+\setlrmarginsandblock{1.25in}{1.25in}{*}
+\setulmargins{1.25in}{*}{*}
+\checkandfixthelayout
+\linespread{1.15}
+
+\pagestyle{plain}
+\setsecnumdepth{subsection}
+
+% There are no chapters, so sections are numbered 1, 2, 3, ...
+% The bibliography is a section rather than a chapter.
+\renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\bibsection}{\section*{References}}
+
+%-----------------------------------------------------------------------------%
+% Theorem-like environments, numbered within sections
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+\newtheorem{example}[definition]{Example}
+
+\theoremstyle{plain}
+\newtheorem{theorem}[definition]{Theorem}
+\newtheorem{lemma}[definition]{Lemma}
+\newtheorem{corollary}[definition]{Corollary}
+\newtheorem{proposition}[definition]{Proposition}
+
+\theoremstyle{remark}
+\newtheorem{remark}[definition]{Remark}
+
+\numberwithin{equation}{section}
+
+%-----------------------------------------------------------------------------%
+% Macros from the course notes
+
+% Dirac notation, norms, and absolute values
+\DeclarePairedDelimiter\bra{\langle}{\rvert}
+\DeclarePairedDelimiter\ket{\lvert}{\rangle}
+\DeclarePairedDelimiterX\braket[2]{\langle}{\rangle}{#1 \delimsize\vert #2}
+\DeclarePairedDelimiter\norm{\lVert}{\rVert}
+\DeclarePairedDelimiter\abs{\lvert}{\rvert}
+
+\newcommand{\yes}{\mathrm{yes}}
+\newcommand{\no}{\mathrm{no}}
+
+% Acceptance and rejection probabilities of a circuit. The trailing optional
+% argument is the input the circuit is run on, and is left off for circuits
+% that take no input:
+%   \accepts{Q_x}     -->  Pr(Q_x accepts)
+%   \accepts{Q_n}[x]  -->  Pr(Q_n accepts x)
+\NewDocumentCommand{\accepts}{m o}{\Pr(#1 \;\text{accepts}\IfValueT{#2}{\;#2})}
+\NewDocumentCommand{\rejects}{m o}{\Pr(#1 \;\text{rejects}\IfValueT{#2}{\;#2})}
+
+% Complexity classes (\L and \P are taken by LaTeX, hence \Lclass and \Pclass).
+\newcommand{\Lclass}{\mathrm{L}}
+\newcommand{\Pclass}{\mathrm{P}}
+\newcommand{\NP}{\mathrm{NP}}
+\newcommand{\coNP}{\mathrm{coNP}}
+\newcommand{\BPP}{\mathrm{BPP}}
+\newcommand{\PP}{\mathrm{PP}}
+\newcommand{\PSPACE}{\mathrm{PSPACE}}
+\newcommand{\EXP}{\mathrm{EXP}}
+\newcommand{\NEXP}{\mathrm{NEXP}}
+\newcommand{\MA}{\mathrm{MA}}
+\newcommand{\AM}{\mathrm{AM}}
+\newcommand{\BQP}{\mathrm{BQP}}
+\newcommand{\PostBQP}{\mathrm{PostBQP}}
+\newcommand{\QMA}{\mathrm{QMA}}
+\newcommand{\QCMA}{\mathrm{QCMA}}
+\newcommand{\QIP}{\mathrm{QIP}}
+\newcommand{\SharpP}{\mathrm{\#P}}
+\newcommand{\GapP}{\mathrm{GapP}}
+
+% Gates and quantum notation
+\newcommand{\reg}[1]{\mathsf{#1}}
+\newcommand{\CNOT}{\mathrm{CNOT}}
+\newcommand{\TOF}{\mathrm{TOF}}
+\newcommand{\Id}{\mathbb{1}}
+\newcommand{\tr}{\operatorname{Tr}}
+\newcommand{\dnorm}[1]{\left\lVert #1 \right\rVert_{\diamond}}
+
+% Karp reductions
+\newcommand{\redPT}{\leq^{\mathrm{p}}_{\mathrm{m}}}
+
+% Promise problem display:
+%   \begin{promiseproblem}{Name of the problem (ABBREVIATION)}
+%     \item[Input] ...
+%     \item[Yes]   ...
+%     \item[No]    ...
+%   \end{promiseproblem}
+\newenvironment{promiseproblem}[1]
+  {\par\medskip%
+   \needspace{6\baselineskip}%
+   \noindent\textsc{#1}\par\nopagebreak[4]%
+   \begin{list}{}{%
+     \setlength{\leftmargin}{5em}%
+     \setlength{\labelwidth}{4em}%
+     \setlength{\labelsep}{1em}%
+     \setlength{\itemindent}{0pt}%
+     \setlength{\topsep}{6pt}%
+     \setlength{\partopsep}{0pt}%
+     \setlength{\parsep}{0pt}%
+     \setlength{\itemsep}{2pt}%
+     \renewcommand{\makelabel}[1]{\hfil\emph{##1}}%
+   }}
+  {\end{list}\medskip}
+
+%-----------------------------------------------------------------------------%
+% Title
+
+\newcommand{\reporttitle}{Title of the Report}
+\newcommand{\reportauthor}{Your Name}
+
+\begin{document}
+
+\begin{center}
+  {\small QIC 890: Quantum Complexity Theory --- Course Project, Fall 2026}
+  \\[8mm]
+  {\fontsize{24}{28}\selectfont \reporttitle}\\[6mm]
+  {\large \reportauthor}
+\end{center}
+
+\vspace{6mm}
+
+%-----------------------------------------------------------------------------%
+
+Opening paragraphs.
+
+%-----------------------------------------------------------------------------%
+\section{Background}
+
+Background material and definitions. Results proved in the course notes can be
+used without proof, referred to by number, for instance Theorem~6.17.
+
+\begin{definition}
+  \label{def:example}
+  A sample definition, in which a new \emph{term} is introduced.
+\end{definition}
+
+%-----------------------------------------------------------------------------%
+\section{Main result}
+
+\begin{theorem}[An important theorem]
+  \label{thm:main}
+  A sample theorem statement including an optional theorem name, a reference
+  to Definition~\ref{def:example}, and a citation~\cite{Kitaev--Shen--Vyalyi}.
+\end{theorem}
+
+\begin{proof}
+  A sample proof, with a numbered display:
+  \begin{equation}
+    \label{eq:example}
+    \bra{\psi} \Pi \ket{\psi} = \tr\bigl(\Pi \ket{\psi}\bra{\psi}\bigr).
+  \end{equation}
+  Equation~\eqref{eq:example} is referred to by its number.
+\end{proof}
+
+%-----------------------------------------------------------------------------%
+\section{Further remarks}
+
+Extensions, open problems, and pointers to related work.
+
+%-----------------------------------------------------------------------------%
+% References. Anything other than the course notes must be cited. Use
+% BibLaTeX or BibTeX to generate automatically.
+
+\begin{thebibliography}{9}
+
+\bibitem{Kitaev--Shen--Vyalyi}
+  A.~Yu. Kitaev, A.~H. Shen, and M.~N. Vyalyi.
+  \emph{Classical and Quantum Computation}.
+  Graduate Studies in Mathematics, volume~47.
+  American Mathematical Society, 2002.
+
+\end{thebibliography}
+
+\end{document}
