@@ -26,10 +26,11 @@ The lecture notes will be posted in parts as they are completed:
 Please see the [guidelines for problem sets]({{ '/QCT-guidelines.pdf' | relative_url }}) that describes goals and expectations for problem set solutions.
 
 - [Problem set 1]({{ '/QCT-problem-set-1.pdf' | relative_url }}) and [solutions]({{ '/QCT-solution-set-1.pdf' | relative_url }})
-- [Problem set 2]({{ '/QCT-problem-set-2.pdf' | relative_url }}) (due Friday, November 13)
+- [Problem set 2]({{ '/QCT-problem-set-2.pdf' | relative_url }}) (due ~~Friday, November 13~~ Monday, November 16)
 
 ## Course project
 
 - See the [course project handout]({{ '/QCT-project.pdf' | relative_url }}) for information on the course project along with topic suggestions.
 - A LaTeX [project template]({{ '/QCT-project-template.tex' | relative_url }}){: download="QCT-project-template.tex"} is available for convenience (or use your own style if you prefer).
+- The project due date is extended to Monday, December 14.
 
