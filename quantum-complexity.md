@@ -20,6 +20,8 @@ The lecture notes will be posted in parts as they are completed:
 - [Part I: Classical complexity primer]({{ '/quantum-complexity-part-1.pdf' | relative_url }})
 - [Part II: Quantum polynomial time]({{ '/quantum-complexity-part-2.pdf' | relative_url }})
 - [Part III: Quantum witnesses]({{ '/quantum-complexity-part-3.pdf' | relative_url }})
+- Part IV: Quantum interactive proofs
+  - [Chapter 12: Quantum interactive proof systems]({{ '/quantum-complexity-chapter-12.pdf' | relative_url }})
 
 ## Problem sets
 

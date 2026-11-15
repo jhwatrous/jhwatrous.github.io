@@ -5,7 +5,7 @@ title: About
 
 # About
 
-I am an American and Canadian educator and researcher specializing in quantum information and computation. I have lived and worked in Canada since 1998 and reject American hegemony.
+I am an educator and researcher specializing in quantum information and computation.
 
 I currently serve as Director of Education and Training at the <a href="https://uwaterloo.ca/institute-for-quantum-computing/">Institute for Quantum Computing</a> at the <a href="https://uwaterloo.ca/">University of Waterloo</a>. Previously, I was the Technical Director for Quantum Education at IBM, a faculty member at the University of Waterloo, and a faculty member at the University of Calgary. I obtained a PhD in Computer Science from the University of Wisconsin – Madison and was a postdoctoral fellow at the Université de Montréal.
 
