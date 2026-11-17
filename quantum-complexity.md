@@ -30,6 +30,7 @@ Please see the [guidelines for problem sets]({{ '/QCT-guidelines.pdf' | relative
 
 - [Problem set 1]({{ '/QCT-problem-set-1.pdf' | relative_url }}) and [solutions]({{ '/QCT-solution-set-1.pdf' | relative_url }})
 - [Problem set 2]({{ '/QCT-problem-set-2.pdf' | relative_url }}) (due ~~Friday, November 13~~ Monday, November 16)
+- [Problem set 3]({{ '/QCT-problem-set-3.pdf' | relative_url }}) (due Monday, December 7)
 
 ## Course project
 
