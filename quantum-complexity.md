@@ -23,6 +23,7 @@ The lecture notes will be posted in parts as they are completed:
 - Part IV: Quantum interactive proofs
   - [Chapter 12: Quantum interactive proof systems]({{ '/quantum-complexity-chapter-12.pdf' | relative_url }})
   - [Chapter 13: Analyzing quantum interactions]({{ '/quantum-complexity-chapter-13.pdf' | relative_url }})
+  - [Chapter 14: Perfect completeness and parallelization]({{ '/quantum-complexity-chapter-14.pdf' | relative_url }})
 
 ## Problem sets
 
